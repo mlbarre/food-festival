@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "food-festival",
   "version": "1.0.0",
   "description": "",
@@ -11,10 +12,22 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlbarre/food-festival.git"
+=======
+  "name": "module-18-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/script.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> offline
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "bugs": {
     "url": "https://github.com/mlbarre/food-festival/issues"
   },
@@ -28,5 +41,22 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.0"
+=======
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "webpack": "^4.32.2",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "webpack-pwa-manifest": "^4.1.1"
+>>>>>>> offline
   }
 }
