@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-const path = require('path');
-const webpack = require('webpack');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-
-module.exports = {
-    entry: './assets/js/script.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'main.bundle.js'
-    },
-    plugins: [
-        new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery"
-        }),
-        new BundleAnalyzerPlugin({
-            analyzerMode: "static", // the report outputs to an HTML file in the dist folder
-        })
-    ],
-    mode: 'development'
-};
-=======
 const webpack = require('webpack');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
@@ -92,4 +69,3 @@ const config = {
 };
 
 module.exports = config;
->>>>>>> offline
